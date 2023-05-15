@@ -60,6 +60,53 @@ title: First page
   beanData: '{"ionBean":"Content"}'
   comment: Page content
   tagName: ion-content
+  ↓Button [ngx.components.UIDynamicElement-1683720838766]: 
+    beanData: '{"ionBean":"Button"}'
+    tagName: ion-button
+    ↓Label [ngx.components.UIDynamicElement-1683720838761]: 
+      beanData: '{"ionBean":"Label"}'
+      tagName: ion-label
+      ↓some_text [ngx.components.UIText-1683720838763]: 
+        textValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:Delete data
+    ↓attr [ngx.components.UIControlEvent-1683720838765]: 
+      ↓Alert [ngx.components.UIDynamicAction-1683720846710]: 
+        beanData: |
+          '{
+           "ionBean": "AlertAction",
+           "message": "plain:Are you sure?",
+           "button1": "plain:NO",
+           "button2": "plain:YES",
+           "value1": "script:{type : ''cancel''}",
+           "value2": "script:{type : ''confirm''}",
+           "cancel1": "plain:cancel",
+           "cancel2": "script:''confirm''"
+          }'
+        tagName: Alert
+        ↓SwitchAction [ngx.components.UIDynamicSwitch-1683720846697]: 
+          beanData: '{"ionBean":"SwitchAction","expression":"script:parent.out.role || parent.out.data.type"}'
+          tagName: SwitchAction
+          ↓SwitchCase_Handler [ngx.components.UIActionCaseEvent-1683720846699]: 
+            caseValue: '''backdrop'''
+            ↓Toast [ngx.components.UIDynamicAction-1683720846701]: 
+              beanData: '{"ionBean":"ToastAction","message":"plain:backdrop"}'
+              tagName: Toast
+          ↓SwitchCase_Handler1 [ngx.components.UIActionCaseEvent-1683720846703]: 
+            caseValue: '''cancel'''
+            ↓Toast [ngx.components.UIDynamicAction-1683720846705]: 
+              beanData: '{"ionBean":"ToastAction","message":"plain:cancel"}'
+              tagName: Toast
+          ↓SwitchCase_Handler2 [ngx.components.UIActionCaseEvent-1683879346839]: 
+            caseValue: '''confirm'''
+            ↓Toast [ngx.components.UIDynamicAction-1683879346842]: 
+              beanData: '{"ionBean":"ToastAction","message":"plain:confirm"}'
+              tagName: Toast
+          ↓SwitchDefault_Handler [ngx.components.UIActionCaseDefaultEvent-1683720846707]: 
+            ↓Toast [ngx.components.UIDynamicAction-1683720846709]: 
+              beanData: '{"ionBean":"ToastAction","message":"plain:default"}'
+              tagName: Toast
 ↓Footer [ngx.components.UIDynamicElement-1491634242460]: 
   beanData: '{"ionBean":"Footer"}'
   comment: Page footer
