@@ -1,6 +1,6 @@
 ↑convertigo: 8.1.0.m006
 ↓alert [core.Project]: 
-  comment: Convertigo NGX builder Project
+  comment: How to use Alert Controller component
   corsOrigin: =Origin
   ↓void [connectors.SqlConnector]: 🗏 connectors/void.yaml
   ↓Project_reference [references.ProjectSchemaReference]: 

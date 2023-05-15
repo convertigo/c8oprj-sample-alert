@@ -3,7 +3,7 @@
 
 # alert
 
-Convertigo NGX builder Project
+How to use Alert Controller component
 
 
 For more technical informations : [documentation](./project.md)
@@ -27,13 +27,13 @@ For more technical informations : [documentation](./project.md)
      <tr><td>To contribute</td><td>
 
      ```
-     alert=C:/Convertigo/Studio 8.2.0/workspace/alert/.git:branch=master
+     alert=https://github.com/convertigo/c8oprj-sample-alert.git:branch=master
      ```
      </td></tr>
      <tr><td>To simply use</td><td>
 
      ```
-     alert=C:/Convertigo/Studio 8.2.0/workspace/alert//archive/master.zip
+     alert=https://github.com/convertigo/c8oprj-sample-alert/archive/master.zip
      ```
      </td></tr>
     </table>
